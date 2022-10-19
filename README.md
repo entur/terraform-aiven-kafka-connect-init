@@ -17,10 +17,10 @@ Produces a variety of useful outputs based on few inputs.
 
 ### Example using the latest release
 
-```
+```terraform
 module "init" {
   source = "github.com/entur/terraform-aiven-kafka-connect-init//modules/init?ref=v1.1.0"
-  ...
+  # rest of the parameters to the module to follow here
 }
 ```
 
