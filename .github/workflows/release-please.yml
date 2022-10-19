@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  bigquery-sink-tests:
+  init-module-release:
     uses: entur/gh-workflows/.github/workflows/release-please.yml@main
     with:
       release_type: terraform-module
