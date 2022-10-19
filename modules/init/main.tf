@@ -17,7 +17,7 @@ data "aiven_kafka_user" "kafka_admin" {
 
 locals {
   access_token = var.access_token
-  connector    = {
+  connector = {
     name    = var.connector_name
     project = data.aiven_project.entur-aiven-project.project
     service = var.service_name
