@@ -44,7 +44,7 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_access_token"></a> [access\_token](#output\_access\_token) | Aiven API access token |
-| <a name="output_connector"></a> [connector](#output\_connector) | Description of connector resources(name, class, project, service etc) |
+| <a name="output_connector"></a> [connector](#output\_connector) | Description of connector resources(name, project, service etc) |
 | <a name="output_default_configuration"></a> [default\_configuration](#output\_default\_configuration) | A map of default configuration options for any connector |
 | <a name="output_schema_registry"></a> [schema\_registry](#output\_schema\_registry) | Details of Kafka schema registry component of Aiven Kafka service |
 <!-- END_TF_DOCS -->
