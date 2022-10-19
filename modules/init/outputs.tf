@@ -1,5 +1,5 @@
 output "connector" {
-  description = "Description of connector resources(name, class, project, service etc)"
+  description = "Description of connector resources(name, project, service etc)"
   value       = local.connector
 }
 
