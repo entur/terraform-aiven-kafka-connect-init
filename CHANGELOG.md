@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.0...v1.1.1) (2022-10-19)
+
+
+### Bug Fixes
+
+* Fix code owners ([ce1a2d3](https://github.com/entur/terraform-aiven-kafka-connect-init/commit/ce1a2d3886ed2a1ee98ecd5506bc56fd6f1dd88d))
+* Fix source path and readme files ([b493ff1](https://github.com/entur/terraform-aiven-kafka-connect-init/commit/b493ff1070e68166f526427b38fa1c59e2778da3))
+
 ## [1.1.0](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.0.2...v1.1.0) (2022-10-19)
 
 
