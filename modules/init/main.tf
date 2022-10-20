@@ -16,18 +16,16 @@ data "aiven_kafka_user" "kafka_admin" {
 }
 
 locals {
-  access_token = var.access_token
-  connector = {
-    name    = var.connector_name
-    project = data.aiven_project.entur-aiven-project.project
-    service = var.service_name
+  aiven = {
+    project      = data.aiven_project.entur-aiven-project.project
+    service      = var.service_name
+    access_token = var.access_token
   }
   schema_registry = {
     url      = "https://${data.aiven_service_component.schema-registry.host}:${data.aiven_service_component.schema-registry.port}"
     userinfo = "${data.aiven_kafka_user.kafka_admin.username}:${data.aiven_kafka_user.kafka_admin.password}"
   }
   default_configuration = {
-    "name" : var.connector_name
     "tasks.max" : var.tasks_max,
     "key.converter" : var.key_converter,
     "value.converter" : var.value_converter,
