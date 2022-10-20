@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.1...v1.1.2) (2022-10-20)
+
+
+### Bug Fixes
+
+* remove connector name from init module ([2cb453f](https://github.com/entur/terraform-aiven-kafka-connect-init/commit/2cb453f83e5707cd74c99ada8929610731f8267a))
+
 ## [1.1.1](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.0...v1.1.1) (2022-10-19)
 
 
