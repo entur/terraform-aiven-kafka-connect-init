@@ -31,7 +31,6 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_access_token"></a> [access\_token](#input\_access\_token) | Aiven API access token | `string` | n/a | yes |
-| <a name="input_connector_name"></a> [connector\_name](#input\_connector\_name) | Unique name for this connector | `string` | n/a | yes |
 | <a name="input_key_converter"></a> [key\_converter](#input\_key\_converter) | Converter class for key Connect data. This controls the format of the data that will be written to Kafka for source connectors or read from Kafka for sink connectors | `string` | `"org.apache.kafka.connect.storage.StringConverter"` | no |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Aiven project name | `string` | n/a | yes |
 | <a name="input_service_name"></a> [service\_name](#input\_service\_name) | Aiven service name where KafkaConnect service is running | `string` | n/a | yes |
@@ -43,8 +42,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_access_token"></a> [access\_token](#output\_access\_token) | Aiven API access token |
-| <a name="output_connector"></a> [connector](#output\_connector) | Description of connector resources(name, project, service etc) |
+| <a name="output_aiven"></a> [aiven](#output\_aiven) | Aiven configuration like (project, service etc) |
 | <a name="output_default_configuration"></a> [default\_configuration](#output\_default\_configuration) | A map of default configuration options for any connector |
 | <a name="output_schema_registry"></a> [schema\_registry](#output\_schema\_registry) | Details of Kafka schema registry component of Aiven Kafka service |
 <!-- END_TF_DOCS -->
