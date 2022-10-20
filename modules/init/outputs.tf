@@ -1,6 +1,6 @@
-output "connector" {
-  description = "Description of connector resources(name, project, service etc)"
-  value       = local.connector
+output "aiven" {
+  description = "Aiven configuration like (project, service etc)"
+  value       = local.aiven
 }
 
 output "schema_registry" {
@@ -11,9 +11,4 @@ output "schema_registry" {
 output "default_configuration" {
   description = "A map of default configuration options for any connector"
   value       = local.default_configuration
-}
-
-output "access_token" {
-  description = "Aiven API access token"
-  value       = var.access_token
 }

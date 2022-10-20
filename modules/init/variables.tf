@@ -19,11 +19,6 @@ variable "service_registry_username" {
   default     = "avnadmin"
 }
 
-variable "connector_name" {
-  type        = string
-  description = "Unique name for this connector"
-}
-
 variable "tasks_max" {
   type        = number
   description = "Maximum number of tasks that should be created for this connector. The connector may create fewer tasks if it cannot achieve this level of parallelism"
