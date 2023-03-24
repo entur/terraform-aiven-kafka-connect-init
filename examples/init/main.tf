@@ -8,7 +8,7 @@ provider "aiven" {
 
 provider "aiven" {
   api_token = var.api_token
-  alias = "aiven-provider"
+  alias     = "aiven-provider"
 }
 
 module "init" {

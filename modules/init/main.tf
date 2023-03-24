@@ -17,8 +17,8 @@ data "aiven_kafka_user" "kafka_admin" {
 
 locals {
   aiven = {
-    project      = data.aiven_project.entur-aiven-project.project
-    service      = var.service_name
+    project = data.aiven_project.entur-aiven-project.project
+    service = var.service_name
   }
   schema_registry = {
     url      = "https://${data.aiven_service_component.schema-registry.host}:${data.aiven_service_component.schema-registry.port}"
