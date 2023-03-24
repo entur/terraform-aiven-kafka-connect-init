@@ -19,7 +19,6 @@ locals {
   aiven = {
     project      = data.aiven_project.entur-aiven-project.project
     service      = var.service_name
-    access_token = var.access_token
   }
   schema_registry = {
     url      = "https://${data.aiven_service_component.schema-registry.host}:${data.aiven_service_component.schema-registry.port}"
