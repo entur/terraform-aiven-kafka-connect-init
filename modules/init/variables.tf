@@ -1,8 +1,3 @@
-variable "access_token" {
-  description = "Aiven API access token"
-  type        = string
-}
-
 variable "project_name" {
   description = "Aiven project name"
   type        = string
