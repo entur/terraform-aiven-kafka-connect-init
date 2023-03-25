@@ -13,12 +13,6 @@ variable "service_name" {
   type        = string
 }
 
-variable "service_registry_username" {
-  description = "Aiven service registry username to connect to Kafka schema registry"
-  type        = string
-  default     = "avnadmin"
-}
-
 variable "tasks_max" {
   type        = number
   description = "Maximum number of tasks that should be created for this connector. The connector may create fewer tasks if it cannot achieve this level of parallelism"
