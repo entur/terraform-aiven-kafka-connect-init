@@ -11,9 +11,9 @@ data "aiven_service_component" "schema-registry" {
 
 locals {
   aiven = {
-    access_token = var.access_token
-    project      = data.aiven_project.entur-aiven-project.project
-    service      = var.service_name
+    access_token        = var.access_token
+    project             = data.aiven_project.entur-aiven-project.project
+    service             = var.service_name
     schema_registry_url = "https://${data.aiven_service_component.schema-registry.host}:${data.aiven_service_component.schema-registry.port}"
   }
   default_configuration = {
