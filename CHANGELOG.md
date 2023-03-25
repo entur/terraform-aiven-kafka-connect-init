@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.3](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.2...v1.1.3) (2023-03-25)
+
+
+### Bug Fixes
+
+* fixed indentation errors ([8b71dd2](https://github.com/entur/terraform-aiven-kafka-connect-init/commit/8b71dd2619243b7f0f18d768b85a30523a87c1c9))
+* move kafka user configuration out to child modules ([1f7aa24](https://github.com/entur/terraform-aiven-kafka-connect-init/commit/1f7aa24dbdc3b4ab44bbd4f3ce6b7678b1602dc5))
+
 ## [1.1.2](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.1...v1.1.2) (2022-10-20)
 
 
