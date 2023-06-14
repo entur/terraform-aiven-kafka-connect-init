@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.4...v1.1.5) (2023-06-14)
+
+
+### Bug Fixes
+
+* add connector service name as input to module ([eed9f65](https://github.com/entur/terraform-aiven-kafka-connect-init/commit/eed9f65fd847adacc7e8dd1740b8e127542bdc37))
+
 ## [1.1.4](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.3...v1.1.4) (2023-06-14)
 
 
