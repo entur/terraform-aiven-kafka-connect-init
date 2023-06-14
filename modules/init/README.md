@@ -30,6 +30,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_access_token"></a> [access\_token](#input\_access\_token) | Aiven API access token | `string` | n/a | yes |
+| <a name="input_connect_service_name"></a> [connect\_service\_name](#input\_connect\_service\_name) | Aiven service name where KafkaConnect Cluster is running. | `string` | `""` | no |
 | <a name="input_kafka_service_name"></a> [kafka\_service\_name](#input\_kafka\_service\_name) | Aiven service name where Kafka Cluster is running | `string` | n/a | yes |
 | <a name="input_key_converter"></a> [key\_converter](#input\_key\_converter) | Converter class for key Connect data. This controls the format of the data that will be written to Kafka for source connectors or read from Kafka for sink connectors | `string` | `"org.apache.kafka.connect.storage.StringConverter"` | no |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Aiven project name | `string` | n/a | yes |
