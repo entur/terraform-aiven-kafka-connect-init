@@ -8,8 +8,8 @@ variable "project_name" {
   type        = string
 }
 
-variable "service_name" {
-  description = "Aiven service name where KafkaConnect service is running"
+variable "kafka_service_name" {
+  description = "Aiven service name where Kafka Cluster is running"
   type        = string
 }
 

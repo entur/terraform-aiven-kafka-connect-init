@@ -30,9 +30,9 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_access_token"></a> [access\_token](#input\_access\_token) | Aiven API access token | `string` | n/a | yes |
+| <a name="input_kafka_service_name"></a> [kafka\_service\_name](#input\_kafka\_service\_name) | Aiven service name where Kafka Cluster is running | `string` | n/a | yes |
 | <a name="input_key_converter"></a> [key\_converter](#input\_key\_converter) | Converter class for key Connect data. This controls the format of the data that will be written to Kafka for source connectors or read from Kafka for sink connectors | `string` | `"org.apache.kafka.connect.storage.StringConverter"` | no |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Aiven project name | `string` | n/a | yes |
-| <a name="input_service_name"></a> [service\_name](#input\_service\_name) | Aiven service name where KafkaConnect service is running | `string` | n/a | yes |
 | <a name="input_tasks_max"></a> [tasks\_max](#input\_tasks\_max) | Maximum number of tasks that should be created for this connector. The connector may create fewer tasks if it cannot achieve this level of parallelism | `number` | `1` | no |
 | <a name="input_value_converter"></a> [value\_converter](#input\_value\_converter) | Converter class for value Connect data. This controls the format of the data that will be written to Kafka for source connectors or read from Kafka for sink connectors | `string` | `"io.confluent.connect.avro.AvroConverter"` | no |
 
