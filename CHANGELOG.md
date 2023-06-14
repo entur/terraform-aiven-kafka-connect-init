@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.3...v1.1.4) (2023-06-14)
+
+
+### Bug Fixes
+
+* exporting proper kafka service name and kafka-connect service names ([8ccbf29](https://github.com/entur/terraform-aiven-kafka-connect-init/commit/8ccbf29c846f5d76e9f50c6e53fa5f18d28a5f67))
+
 ## [1.1.3](https://github.com/entur/terraform-aiven-kafka-connect-init/compare/v1.1.2...v1.1.3) (2023-03-25)
 
 

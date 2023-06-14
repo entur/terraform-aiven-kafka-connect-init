@@ -19,7 +19,7 @@ Produces a variety of useful outputs based on few inputs.
 
 ```terraform
 module "init" {
-  source = "github.com/entur/terraform-aiven-kafka-connect-init//modules/init?ref=v1.1.3"
+  source = "github.com/entur/terraform-aiven-kafka-connect-init//modules/init?ref=v1.1.4"
   # rest of the parameters to the module to follow here
 }
 ```
