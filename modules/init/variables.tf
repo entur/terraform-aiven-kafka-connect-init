@@ -13,6 +13,12 @@ variable "kafka_service_name" {
   type        = string
 }
 
+variable "connect_service_name" {
+  description = "Aiven service name where KafkaConnect Cluster is running."
+  type        = string
+  default     = ""
+}
+
 variable "tasks_max" {
   type        = number
   description = "Maximum number of tasks that should be created for this connector. The connector may create fewer tasks if it cannot achieve this level of parallelism"
