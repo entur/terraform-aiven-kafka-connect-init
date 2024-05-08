@@ -1,6 +1,6 @@
 # Init module for Aiven's KafkaConnect modules
 
-Terraform module for initiating Aiven's KafkaConnect modules
+Terraform module for initiating Aiven's KafkaConnect modules.
 
 ## Main init module
 
